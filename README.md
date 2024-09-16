@@ -1,5 +1,5 @@
 # cse210-ww-student-template
-Mauricio David Grinzato Sandoval CSE210
+NAME: Mauricio David Grinzato Sandoval CSE210
 
 This repository contains the starter code for many different projects. They are arranged as follows:
 
