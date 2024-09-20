@@ -6,23 +6,23 @@ class Program
     {
        Console.Write("whats your percentage grade?: ");
        string percent = Console.ReadLine();
-       int perval = int.Parse(percent);
+       int percentval = int.Parse(percent);
 
        string calification = "";
 
-       if(perval >= 90)
+       if(percentval >= 90)
        {
          calification = "A";
        }
-       else if(perval >= 80)
+       else if(percentval >= 80)
        {
           calification = "B";  
        }
-       else if(perval >= 70)
+       else if(percentval >= 70)
        {
           calification = "C";  
        }
-       else if(perval >= 60)
+       else if(percentval >= 60)
        {
           calification = "D";  
        }
@@ -33,7 +33,7 @@ class Program
 
        Console.WriteLine($"Yuor grade is: {calification}");
 
-       if (perval >= 70)
+       if (percentval >= 70)
        {
          Console.WriteLine("you passed!!");
        }
