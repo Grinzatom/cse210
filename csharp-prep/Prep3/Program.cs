@@ -14,7 +14,7 @@ class Program
 
         int guess = -1;
 
-        // We could also use a do-while loop here...
+        // We could also use a do-while loop here..
         while (guess != Number)
         {
             Console.Write("What is your number? ");
